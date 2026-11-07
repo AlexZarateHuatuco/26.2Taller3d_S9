@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WeaponManager">
+    <Position X="6.5" Y="2" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="WeaponManager.WeaponChangedEvent" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\WeaponManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AO5AAAAQACAAAACAAAAAgAAAAIIACAAAABAAACAAAAA=</HashCode>
+      <FileName>Assets\WeaponManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="activeWeapon" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WeaponData">
+    <Position X="4.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KIAAAAiIQAICmEICAgQAAAAEAAAAhAICEAAAAjCAAAA=</HashCode>
+      <FileName>Assets\WeaponData.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="bulletType" />
+      <Field Name="fireMode" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Weapon">
+    <Position X="9.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>WAAAAAAgIAAARQAAAAQAACIAACAAEBAAAAA1BGkCAEA=</HashCode>
+      <FileName>Assets\Weapon.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="data" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BulletPlayer">
+    <Position X="2.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACIQCAAmBBEAAQAAAAAAAAAAAAAQAAAAAAAAEA=</HashCode>
+      <FileName>Assets\BulletPlayer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="bulletType" />
+    </ShowAsAssociation>
+  </Class>
+  <Enum Name="FireMode">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAEEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\WeaponData.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BulletType">
+    <Position X="2.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAACAAAAgQAAAgAAAAAMAABAAAAAAAAAQAA=</HashCode>
+      <FileName>Assets\BulletPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
